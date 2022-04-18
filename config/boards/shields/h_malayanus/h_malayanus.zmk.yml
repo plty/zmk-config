@@ -1,0 +1,8 @@
+file_format: "1"
+id: h_malayanus
+name: Helarctos malayanus
+type: shield
+url: https://example.com
+requires: [seeeduino_xiao]
+features:
+  - keys

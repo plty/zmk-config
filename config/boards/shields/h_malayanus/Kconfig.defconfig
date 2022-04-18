@@ -1,0 +1,5 @@
+if SHIELD_H_MALAYANUS
+
+config ZMK_KEYBOARD_NAME
+    default "Helarctos malayanus"
+endif
