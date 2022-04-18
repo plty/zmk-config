@@ -6,3 +6,4 @@ url: https://example.com
 requires: [seeed_xiao]
 features:
   - keys
+  - encoder

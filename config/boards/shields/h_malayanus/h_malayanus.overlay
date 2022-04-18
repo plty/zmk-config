@@ -28,17 +28,17 @@
             ;
     };
 
-    left_encoder: encoder_left {
+    encoder: encoder {
         compatible = "alps,ec11";
-        label = "LEFT_ENCODER";
+        label = "ENCODER";
         a-gpios = <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        resolution = <4>;
+        resolution = <2>;
 		status = "okay";
     };
 
     sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder>;
+        sensors = <&encoder>;
     };
 };
