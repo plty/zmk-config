@@ -3,6 +3,6 @@ id: h_malayanus
 name: Helarctos malayanus
 type: shield
 url: https://example.com
-requires: [seeeduino_xiao]
+requires: [pro_micro]
 features:
   - keys
