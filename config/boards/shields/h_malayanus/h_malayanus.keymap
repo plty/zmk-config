@@ -8,6 +8,11 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+	sensors {
+		compatible = "zmk,keymap-sensors";
+		sensors = <&encoder>;
+	};
+
     keymap {
         compatible = "zmk,keymap";
 
