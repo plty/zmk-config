@@ -10,18 +10,19 @@
 / {
 	sensors {
 		compatible = "zmk,keymap-sensors";
-		sensors = <&encoder>;
+		sensors = <&encoder_1>;
 	};
 
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
+            label = "default";
+			sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
             bindings = <
     &kp C_PREV   &kp C_PP &kp C_NEXT
     &kp C_VOL_DN &none &kp C_VOL_UP
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
