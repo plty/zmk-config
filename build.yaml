@@ -16,4 +16,4 @@ include:
   - board: seeeduino_xiao
     shield: h_malayanus
   - board: seeeduino_xiao_ble
-    shield: ice_bear
+    shield: [ "ice_bear_left", "ice_bear_right" ]
