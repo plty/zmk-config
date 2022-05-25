@@ -1,0 +1,5 @@
+config SHIELD_ICE_BEAR_LEFT
+    def_bool $(shields_list_contains,ice_bear_left)
+
+config SHIELD_ICE_BEAR_RIGHT
+    def_bool $(shields_list_contains,ice_bear_right)

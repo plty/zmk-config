@@ -1,0 +1,14 @@
+if SHIELD_ICE_BEAR_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "ice bear"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_ICE_BEAR_LEFT || SHIELD_ICE_BEAR_RIGHT
+
+config ZMK_SPLIT
+    default y

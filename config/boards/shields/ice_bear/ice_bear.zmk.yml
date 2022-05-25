@@ -1,0 +1,11 @@
+file_format: "1"
+id: ice_bear
+name: ice bear
+type: shield
+url: https://github.com/plty
+requires: [seeed_xiao]
+features:
+  - keys
+siblings:
+  - ice_bear_left
+  - ice_bear_right
